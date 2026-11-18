@@ -90,7 +90,7 @@ home = f'''
 
 <section id="apps"><div class="wrap">
 <span class="eyebrow">Apps</span><h2>Apps published by BVBAGRI</h2>
-<p class="lead">BVBAGRI publishes apps for its own brands and for businesses in its group. Each app has its own support, privacy and account deletion page.</p>
+<p class="lead">BVBAGRI publishes apps for its own brands, for businesses in its group and for UK higher education. Each app has its own support, privacy and account deletion page.</p>
 <div class="grid g2" style="margin-top:32px">{apps_cards}</div>
 <p style="margin-top:22px"><a class="btn dark" href="apps/">All apps &amp; support →</a></p>
 </div></section>
@@ -117,8 +117,8 @@ w('privacy.html', page('Privacy notice — BVBAGRI', priv, 'Privacy notice for t
 
 # ---------------- per-app privacy text ----------------
 def privacy_pending(a):
-    return f'''<div class="note"><b>{e(a['name'])} is not live yet.</b> Its full privacy policy will be published on this page before the app is released. Until then the app collects no personal data.</div>
-<p>The controller of personal data in {e(a['name'])} will be {e(a['controller'])}, ICO registration {P['ico']}. Questions: <a href="mailto:{P['support']}">{P['support']}</a>.</p>'''
+    return f'''<div class="note"><b>{e(a['name'])} is not yet on the App Store or Google Play.</b> Its full privacy policy will be published on this page before it is released there.</div>
+<p>The organisation responsible for personal data in {e(a['name'])} (the controller) will be {e(a['controller'])}. The app is published by {e(P['name'])}, United Kingdom (ICO registration {P['ico']}). Questions: <a href="mailto:{P['support']}">{P['support']}</a>.</p>'''
 
 
 def privacy_nobel(a):
@@ -147,7 +147,7 @@ def privacy_nobel(a):
 
 
 def delete_pending(a):
-    return f'''<div class="note"><b>{e(a['name'])} is not live yet.</b> When it is, you will be able to delete your account inside the app, or by emailing us as below.</div>
+    return f'''<div class="note"><b>{e(a['name'])} is not yet on the App Store or Google Play.</b> When it is, you will be able to delete your account inside the app, or by emailing us as below.</div>
 <p>Email <a href="mailto:{P['support']}?subject=Delete%20my%20{e(a['name'])}%20account">{P['support']}</a> with the subject “Delete my {e(a['name'])} account”, from the email address or phone number on your account.</p>'''
 
 

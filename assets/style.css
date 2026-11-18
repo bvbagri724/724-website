@@ -43,7 +43,7 @@ section.alt .card{background:var(--cream)}
 .panel724 li b{color:var(--gold2);min-width:24px}
 .pr{display:flex;gap:16px;align-items:flex-start}.pr .n{flex:none;width:44px;height:44px;border-radius:50%;background:var(--olive);color:var(--gold2);display:grid;place-items:center;font-family:Fraunces,Georgia,serif;font-size:20px}
 .pr h3{font-size:19px;margin-bottom:4px}.pr p{color:var(--muted);font-size:15px;margin:0}
-.app{display:flex;gap:18px;align-items:flex-start}.app .ai{flex:none;width:60px;height:60px;border-radius:16px;display:grid;place-items:center;font-size:28px;color:#fff}
+.app{display:flex;gap:18px;align-items:flex-start}.app .ai{flex:none;width:60px;height:60px;border-radius:16px;display:grid;place-items:center;font-size:24px;font-weight:700;font-family:Fraunces,Georgia,serif;color:#fff}
 .contact{background:var(--olive);color:#fff}.contact a.mail{font-family:Fraunces,Georgia,serif;font-size:clamp(22px,3vw,32px);color:var(--gold2);text-decoration:none}
 .contact .card{background:var(--olive2);border-color:rgba(255,255,255,.1)}.contact .card p{color:rgba(255,255,255,.75)}
 footer{background:#1b2414;color:rgba(255,255,255,.7);font-size:14px;padding:48px 0 36px}

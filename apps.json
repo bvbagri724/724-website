@@ -33,6 +33,32 @@
       "summary": "Runs the day-to-day work of a garment factory: attendance at the gate, production stations, orders, stock, purchasing and payroll, in English and Tamil. Accounts are created by the factory; it is not open to the public.",
       "controller": "Nobel Export Company, Tiruppur, Tamil Nadu, India",
       "privacy": "nobel"
+    },
+    {
+      "id": "nobel-house-colombo",
+      "name": "Nobel House Colombo",
+      "icon": "NH",
+      "colour": "#0F3D2E",
+      "tagline": "Staff and guest app for Nobel House, Colombo",
+      "for": "Staff and guests of Nobel House, a private luxury house in Thalawathugoda, Colombo, Sri Lanka",
+      "status": "In development",
+      "audience": "private",
+      "summary": "Runs Nobel House, a private luxury stay in Colombo: bookings and availability, guest check-in and check-out, housekeeping and staff tasks, in English, Sinhala and Tamil. Staff accounts are created by the house; guests book through nobelhousecolombo.com.",
+      "controller": "SPRAN HOTELS (PRIVATE) LIMITED, Sri Lanka (company number PV 00362662)",
+      "privacy": "pending"
+    },
+    {
+      "id": "ai-lms-sms",
+      "name": "AI Learning & Student Management System",
+      "icon": "AI",
+      "colour": "#1f3a68",
+      "tagline": "LMS and SMS for UK higher education",
+      "for": "UK higher education providers, their staff and their students",
+      "status": "In development",
+      "audience": "institutions",
+      "summary": "An AI-supported learning management system (LMS) and student management system (SMS) for UK higher education: from enquiry and admission to enrolment, teaching, attendance, assessment, academic records and results, built to meet the Office for Students and validating-university requirements.",
+      "controller": "each higher education provider that uses it (for its own staff and students), with BVBAGRI FOODS CORPORATION LIMITED as its service provider",
+      "privacy": "pending"
     }
   ]
 }
