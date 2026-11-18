@@ -1,0 +1,38 @@
+{
+  "publisher": {
+    "name": "BVBAGRI FOODS CORPORATION LIMITED",
+    "number": "16666256",
+    "office": "Nautilus House, Redburn Court, Earl Grey Way, North Shields, NE29 6AR, United Kingdom",
+    "ico": "C2076742",
+    "support": "apps@724.uk.com",
+    "general": "hello@724.uk.com"
+  },
+  "apps": [
+    {
+      "id": "724",
+      "name": "724",
+      "icon": "7",
+      "colour": "#c9a24a",
+      "tagline": "Order from the BVBAGRI Food Family",
+      "for": "Customers of the BVBAGRI Food Family brands",
+      "status": "Coming soon",
+      "audience": "public",
+      "summary": "One app to order from Bunz, Kebabox, Pizzoria, Woomi, Brew Koffee, Tubble and BAZIC, with our own delivery from 7am to midnight.",
+      "controller": "BVBAGRI FOODS CORPORATION LIMITED",
+      "privacy": "pending"
+    },
+    {
+      "id": "nobel-export-factory",
+      "name": "Nobel Export Factory",
+      "icon": "N",
+      "colour": "#e0662b",
+      "tagline": "Workplace app for Nobel Export Company",
+      "for": "Staff, managers and invited clients of Nobel Export Company, Tiruppur, India",
+      "status": "Private workplace app",
+      "audience": "private",
+      "summary": "Runs the day-to-day work of a garment factory: attendance at the gate, production stations, orders, stock, purchasing and payroll, in English and Tamil. Accounts are created by the factory; it is not open to the public.",
+      "controller": "Nobel Export Company, Tiruppur, Tamil Nadu, India",
+      "privacy": "nobel"
+    }
+  ]
+}
