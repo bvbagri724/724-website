@@ -122,7 +122,7 @@ def privacy_pending(a):
 
 
 def privacy_nobel(a):
-    return f'''<p class="lead">Nobel Export Factory is a private workplace app. Accounts are created only by Nobel Export Company for its own staff, managers and invited business clients.</p>
+    return f'''<p class="lead">Nobel Export Company is a private workplace app. Accounts are created only by Nobel Export Company for its own staff, managers and invited business clients.</p>
 <h2>Who is responsible</h2>
 <table><tr><th>Data fiduciary (controller)</th><td>Nobel Export Company, Tiruppur, Tamil Nadu, India — the employer that decides what the app is used for. Contact: <a href="mailto:nobel151013@gmail.com">nobel151013@gmail.com</a></td></tr>
 <tr><th>App publisher and service provider</th><td>{e(P['name'])}, United Kingdom (company number {P['number']}). We build and run the app for Nobel Export Company and use the data only on its instructions. Contact: <a href="mailto:{P['support']}">{P['support']}</a></td></tr></table>
@@ -152,9 +152,9 @@ def delete_pending(a):
 
 
 def delete_nobel(a):
-    return f'''<p class="lead">Nobel Export Factory accounts belong to Nobel Export Company's staff and invited clients.</p>
+    return f'''<p class="lead">Nobel Export Company accounts belong to Nobel Export Company's staff and invited clients.</p>
 <h2>How to ask</h2><ol><li>Tell the factory office (the General Manager), <b>or</b></li>
-<li>Email <a href="mailto:{P['support']}?subject=Delete%20my%20Nobel%20Export%20Factory%20account">{P['support']}</a> with the subject “Delete my Nobel Export Factory account”, giving your name and the phone number on your account.</li></ol>
+<li>Email <a href="mailto:{P['support']}?subject=Delete%20my%20Nobel%20Export%20Factory%20account">{P['support']}</a> with the subject “Delete my Nobel Export Company account”, giving your name and the phone number on your account.</li></ol>
 <p>We confirm who you are before deleting anything, and we reply within 30 days.</p>
 <h2>What is deleted</h2><ul><li>Your login and PIN or password</li><li>Your face template, voice sample and photos</li><li>Your phone number and WhatsApp messages</li></ul>
 <h2>What is kept, and for how long</h2><p>Attendance, salary, advance and payslip records are kept by Nobel Export Company for as long as Indian wage, tax and employment law requires, and are then deleted.</p>'''
